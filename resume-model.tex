@@ -16,9 +16,9 @@
   \faEdit{} \today
 }
 
-\name{玩AI}{阿东}
+\name{邓}{祎明}
 
-\keywords{大模型, 算法工程师, 模型压缩, 模型微调, PyTorch, DeepSpeed}
+\keywords{算法工程师, 计算机视觉, 眼动跟踪, 目标检测, 目标跟踪, 端侧部署}
 
 % \tagline{\texorpdfstring{\icon{\faBinoculars} }{}<position-to-look-for>}
 % \tagline{<current-position>}
@@ -31,11 +31,11 @@
 % \photo[shape=square]{5.5em}{photo}
 
 \profile{
-  \mobile{138-0000-0000}
-  \email{adong@tsinghua.edu.cn}
-  \university{清华大学}
-  \degree{计算机科学与技术 \textbullet 硕士}
-  \birthday{1998-06}
+  \mobile{177-7918-0948}
+  \email{dengyiming@std.uestc.edu.cn}
+  \university{电子科技大学}
+  \degree{生物医学工程 \textbullet 硕士}
+  \birthday{2002-09}
   % Custom information:
   % \icontext{<icon>}{<text>}
   % \iconlink{<icon>}{<link>}{<text>}
@@ -48,19 +48,18 @@
 % Summary & Objectives
 %======================================================================
 \begin{abstract}
-清华大学计算机科学与技术专业硕士在读，预计 2026 年 6 月毕业。主攻大模型方向，在模型压缩与微调方面有深入研究和丰富实践。具备头部科技公司大模型算法实习经验，熟悉 LLaMA 架构、提示工程及性能优化。科研方面，以一作身份在 NeurIPS 发表论文，专注模型压缩与知识蒸馏。技术实践能力强，曾获 Kaggle 大模型微调比赛金牌，熟悉 PyTorch、DeepSpeed 及 Hugging Face Transformers 等开发框架与工具。
+电子科技大学生物医学工程硕士在读，具备计算机视觉算法研发、端侧模型落地与跨团队工程协作经验。曾在旷视科技手机业务部门实习，独立推进注视检测模型从研发到交付，在复杂场景准确率与部署效果上取得显著提升。当前研究方向为跨设备眼动跟踪与无障碍人机交互，聚焦跨域泛化、实时交互与系统级优化，具备从算法设计到产品化实现的完整实践能力。
 \end{abstract}
 
 %======================================================================
 \sectionTitle{专业技能}{\faWrench}
 %======================================================================
 \begin{itemize}
-    \item 熟悉 Python 及 PyTorch 框架，掌握 Hugging Face Transformers 等大模型开发工具。
-    \item 深入理解大模型微调技术，如 P-tuning、LoRA 等，并有丰富的提示工程实践经验。
-    \item 熟悉 LLaMA 等主流模型架构，以及 RLHF、DPO 等偏好对齐方法。
-    \item 掌握基于知识蒸馏的模型压缩方法，对大模型轻量化有深入研究。
-    \item 熟悉 DeepSpeed 等分布式训练框架，具备大模型训练与部署性能优化能力。
-    \item 了解 RAG、Agent 等 LLM 应用技术，对多模态大模型有研究与实践经验。
+  \item 熟悉 Python、PyTorch、MegEngine 等深度学习开发框架，具备目标检测与目标跟踪项目经验。
+  \item 熟悉 YOLOv8、ByteTrack、BoT-SORT 等视觉算法，能够完成检测/跟踪任务建模、训练与评估。
+  \item 具备端侧模型优化与部署经验，熟悉 QAT/PTQ 量化流程及跨硬件平台一致性问题分析。
+  \item 具备数据工程与模型工程实践能力，能够搭建数据与模型管理流程并支持多项目并行迭代。
+  \item 熟悉实时眼动跟踪与人机交互系统开发，具备跨设备校准、误差优化与交互设计能力。
 \end{itemize}
 
 %======================================================================
@@ -68,19 +67,19 @@
 %======================================================================
 \begin{educations}
   \education%
-    {2023.09}%
-    [2026.06 (预计)]%
-    {清华大学}%
-    {计算机学院}%
-    {计算机科学与技术}%
-    {硕士 \quad 专业排名前 5\%}
+    {2024.09}%
+    [2027.06 (预计)]%
+    {电子科技大学}%
+    {生命科学与技术学院}%
+    {生物医学工程}%
+    {硕士}
   \separator{0.5ex}
   \education%
-    {2019.09}%
-    [2023.06]%
-    {清华大学}%
-    {计算机系}%
-    {计算机科学与技术}%
+    {2020.09}%
+    [2024.07]%
+    {桂林电子科技大学}%
+    {生命与环境科学学院}%
+    {生物医学工程}%
     {学士}
 \end{educations}
 
@@ -88,20 +87,11 @@
 \sectionTitle{科研经历}{\faAtom}
 %======================================================================
 \begin{itemize}
-    \item \textbf{基于强化学习的自主决策 Agent 系统研究} \hfill 20XX.X --- 至今
+  \item \textbf{跨设备重定向增强方法研究} \hfill 2024.09 --- 至今
     \begin{itemize}
-        \item \textbf{问题背景}: 现有 LLM-based Agent 在复杂任务中存在决策路径冗余、缺乏长期规划能力等问题, 在多步骤任务中难以做出最优决策序列
-        \item \textbf{研究内容}: 1) 提出基于 PPO 的 Agent 决策优化框架, 将 LLM 作为策略网络, 通过任务完成度、步骤效率等构建奖励函数, 实现端到端强化学习训练; 在 ALFWorld、WebShop 等 Benchmark 上验证, 对比 ReAct、Reflexion 等基线方法, 任务成功率提升 XX\%~XX\%, 平均决策步数减少 XX\%
-        \item 2) 设计分层强化学习架构, 将复杂任务分解为高层规划和低层执行两个层次; 通过 Hindsight Experience Replay (HER) 提升样本利用效率, 在稀疏奖励环境下收敛速度提升 XX\%
-        \item 3) 引入 Monte Carlo Tree Search (MCTS) 与 RL 结合的混合决策机制, 在决策前进行多步模拟, 优化探索-利用平衡; 在长序列任务中, 相比纯 RL 方法, 样本效率提升 XX\%, 最终性能提升 XX\%
-        \item \textbf{相关成果}: 第一作者论文已投稿 NeurIPS/ICML 20XX, 目前处于 Under Review 状态; 开源代码在 GitHub 获得 XXX+ stars
-    \end{itemize}
-    
-    \item \textbf{大模型知识蒸馏与模型压缩技术研究} \hfill 20XX.X --- 20XX.X
-    \begin{itemize}
-        \item \textbf{问题背景}: 大规模语言模型部署成本高昂, 在边缘设备和实时应用场景下难以满足推理延迟要求
-        \item \textbf{研究内容}: 1) 提出基于层级知识蒸馏的模型压缩方法, 同时对齐 Teacher 和 Student 模型的注意力分布、隐层特征和输出概率分布, 在保持 XX\% 性能的前提下, 将 LLaMA-13B 压缩至 XB 参数量; 2) 结合结构化剪枝和低秩分解技术, 设计自适应剪枝策略, 在 MMLU、GSM8K 等 Benchmark 上, 相比标准蒸馏方法, 平均性能提升 X.X\%
-        \item \textbf{相关成果}: 第一作者论文发表于 NeurIPS/ICML/ICLR 20XX (CCF-A), 论文被引用 XX 次
+    \item \textbf{问题背景}: 跨设备视线估计存在尺寸差异引起的分布偏移问题，导致注视点在不同视野设备间映射不稳定。
+    \item \textbf{研究内容}: 1) 提出基于重定向数据增强的跨设备泛化方法，将小视野注视数据扩增到大视野设备；2) 结合个性化注视点校准与多点快速采样策略，提升系统跨用户与跨设备鲁棒性；3) 构建跨设备评测流程，对比不同重定向策略在泛化精度与稳定性上的表现。
+    \item \textbf{相关成果}: 目前已形成相关论文一篇，处于 TIP 投稿阶段。
     \end{itemize}
 \end{itemize}
 
@@ -110,14 +100,25 @@
 %======================================================================
 \begin{experiences}
   \experience%
-    [20XX.X]%
-    {20XX.X}%
-    {字节跳动/腾讯/阿里巴巴 \quad AI Lab \quad 大模型算法实习生}%
+    [2024.04]%
+    {2024.10}%
+    {旷视科技 \quad 手机业务部（极感科技） \quad 算法实习生}%
     [\begin{itemize}
-      \item \textbf{负责部分}: 参与 XXXX 大模型训练过程, 负责 XXXX 数据构造与模型微调, 负责 XXXX 模块开发与性能优化
-      \item \textbf{实习内容1}: 根据 XXXX 业务场景（如代码生成/数学推理/对话等）, 挖掘模型能力短板, 构造高质量训练数据 XX B tokens, 进行持续预训练/SFT训练, 在 HumanEval/MATH/MMLU 等 benchmark 消融实验中, 稳定提升平均得分 X~Xpp
-      \item \textbf{实习内容2}: 针对模型在 XXXX 场景存在的 XX 问题（如指令遵循/多轮对话/工具调用等）, 依据业务流程, 收集和构造 XXXX 数据集, 设计 XXXX 训练策略（如多任务学习/DPO/RLHF等）, 基于 LLaMA/Qwen 等模型进行训练, 最终在内部 benchmark 上平均得分继续提升 Xpp, XXXX 指标达到 XX\%
-      \item \textbf{实习内容3}: 负责模型推理性能优化, 发现 XXXX 问题（如延迟高/显存占用大等）, 采用 XXXX 优化方法（如KV Cache优化/量化/算子融合等）, 基于 vLLM/TensorRT 等框架, 进行推理加速优化, 推理延迟降低 XX\%, QPS提升 XX\%, 同时研究模型压缩方法, 最终在保持性能前提下显存占用降低 XX\%
+      \item 独立完成蔚来手机注视检测模型的研发与交付，负责算法研发与客户数据对接；基于 MegEngine 框架完成约 4 个月迭代优化，针对客户反馈 badcase 从数据与算法两侧改进。
+      \item 通用场景准确率由 84\% 提升至 95\%，复杂场景准确率由 62\% 提升至 85\%，模型成功上线至蔚来最新款手机。
+      \item 主导注视检测基座模型更新，使用全向人脸检测替代旧版四向检测，结合人脸 landmark 与仿射变换提升侧脸/歪脸场景鲁棒性；整体准确率提升约 2\%，半脸场景提升约 30\%。
+      \item 完成算法基础设施建设与多项目支持，基于 nori2 搭建统一云端数据与模型管理流程，实现数据、模型、测试文件分离，训练效率提升约 150\%；并参与 vivo、荣耀等项目算法迭代。
+      \item 参与跨算法、开发、测试、量化、研究院多部门协作，推进 QAT 与 PTQ 方案调试，解决量化与推理结果对齐问题，提升模型跨硬件平台一致性与可移植性。
+    \end{itemize}]
+  \separator{0.5ex}
+  \experience%
+    [2023.04]%
+    {2023.10}%
+    {欧洲蚊虫控制协会（EMCA）/ Entostudio \quad 国际实习生}%
+    [\begin{itemize}
+      \item 开发基于 YOLOv8 的目标检测模型，用于识别监测视频中的蟑螂与蚂蚁个体。
+      \item 开发基于 ByteTrack、BoT-SORT 的目标跟踪模型，用于捕捉视频中所有个体的运动轨迹。
+      \item 设计并实现基于 Qt 的软件界面，集成检测与跟踪流程，支持标定区域内目标计数与计时。
     \end{itemize}]
 \end{experiences}
 
@@ -125,25 +126,14 @@
 \sectionTitle{项目经历}{\faCode}
 %======================================================================
 \begin{itemize}
-    \item \textbf{基于自我纠错机制的智能 RAG 检索系统} \hfill 20XX.X --- 20XX.X
+    \item \textbf{实时眼动跟踪交互平台开发} \hfill 2024.09 --- 至今
     \begin{itemize}
-        \item \textbf{项目背景}: 为解决 XXXX 知识库检索效率低下问题, 设计并实现能够自主优化检索策略的 RAG 系统
-        \item \textbf{核心痛点}: 最初版本召回率仅 XX\%, 存在 XXXX 问题（如关键词匹配不准/语义理解偏差等）
-        \item \textbf{技术方案}: 1) 借鉴 ReAct 思想, 设计迭代式检索策略——当检索结果置信度低时, Agent 自动触发反思机制, 分析失败原因并重新生成优化查询; 2) 实现多策略融合检索（向量检索/BM25/混合检索）, 根据查询类型自适应选择最优策略; 3) 引入重排序模块, 基于交叉编码器对召回文档进行精排
-        \item \textbf{实验验证}: 在 XXXX 数据集上进行完整消融实验, 迭代式检索使召回率提升 XX\%, 多策略融合再提升 XX\%
-        \item \textbf{最终效果}: 召回率从 XX\% 提升至 XX\%, 平均检索轮次 X.X 次, 用户满意度达到 XX\%, 相关技术方案已应用于实际生产环境
-        \item \textbf{技术栈}: Python, LangChain, FAISS, Sentence-Transformers, BGE-reranker
-    \end{itemize}
-    
-    \item \textbf{基于分层记忆架构的长程对话 Agent 系统} \hfill 20XX.X --- 20XX.X
-    \begin{itemize}
-        \item \textbf{项目背景}: 现有 Agent 在长对话场景下, 因上下文窗口限制和记忆管理不当, 导致信息遗忘严重、检索效率低下
-        \item \textbf{设计灵感}: 受人类记忆机制启发（工作记忆 + 长期记忆）, 设计类似的分层记忆架构
-        \item \textbf{架构设计}: 1) \textbf{工作记忆层}: 维护最近 K 轮对话完整上下文; 2) \textbf{短期记忆层}: 对近期对话自动摘要, 提取关键信息; 3) \textbf{长期记忆层}: 基于重要性评分和时间衰减机制, 筛选重要记忆永久保存
-        \item \textbf{关键技术}: 1) 实现 BM25 + 向量相似度混合检索; 2) 设计记忆压缩算法; 3) 引入记忆更新策略, 自动处理信息冲突
-        \item \textbf{实验结果}: 信息有效保留率达到 XX\%, 记忆检索速度提升 X 倍, 在 XXX 轮以上超长对话中任务完成率提升 XX\%
-        \item \textbf{应用场景}: 已集成到个人助理型 Agent, 可处理日程管理/待办事项跟踪/知识问答等长期交互任务
-        \item \textbf{技术栈}: Python, LangChain, ChromaDB, Redis, GPT-4
+      \item \textbf{项目背景}: 为提升肢体受限用户的计算机使用能力，开发基于普通摄像头的实时眼动跟踪交互平台。
+      \item \textbf{核心痛点}: 纯视觉方案在实时性、注视点精度和个体差异适配方面存在明显挑战，影响可用性与稳定性。
+      \item \textbf{技术方案}: 1) 构建基于笔记本摄像头的眼动跟踪与交互闭环，实现眼动驱动的鼠标控制、键盘输入及常用操作；2) 设计个性化校准与多点快速采样流程，降低跨用户误差；3) 设计多种辅助工具与交互界面，优化操作路径与反馈机制。
+      \item \textbf{实验验证}: 在标准测试场景下进行时延与精度评测，系统帧率达到 30FPS 以上，平均注视点预测误差小于 2cm。
+      \item \textbf{最终效果}: 平台具备稳定的人机交互能力，可支持基础输入与常用系统操作，显著提升无障碍使用体验。
+      \item \textbf{技术栈}: Python, OpenCV, Qt
     \end{itemize}
 \end{itemize}
 
@@ -151,14 +141,12 @@
 \sectionTitle{个人荣誉}{\faTrophy}
 %======================================================================
 \begin{itemize}
-    \item NeurIPS/ICML/ICLR 20XX 第一作者论文 (CCF-A 类会议), 研究方向: XXXX
-    \item Kaggle XXXX Competition 金牌/银牌 (Top X\%, XX/XXXX)
-    \item 天池/DataFountain XXXX Challenge 第一名/Top X
-    \item 清华大学/北京大学 20XX 年度学业优秀奖学金（一等）、优秀研究生
-    \item 20XX 年度国家奖学金
-    \item 中国大学生程序设计竞赛 (CCPC) / ACM-ICPC 全国金奖/银奖/铜奖
-    \item 美国大学生数学建模竞赛 (MCM/ICM) Outstanding/Meritorious Winner
-    \item GitHub 开源项目 "XXXX" 获得 XXX+ stars
+  \item 以第一作者发表计算机视觉领域 SCI 论文 1 篇
+  \item 申请发明专利 2 项、软件著作权 1 项
+  \item 第十届全国大学生生物医学工程创新设计竞赛 三等奖
+  \item 第十八届“挑战杯”全国大学生课外学术科技作品竞赛 三等奖
+  \item 第九届中国国际“互联网+”大学生创新创业大赛广西赛区 金奖
+  \item 第三届广西大学生人工智能设计大赛 一等奖
 \end{itemize}
 
 \end{document}
